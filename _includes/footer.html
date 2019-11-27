@@ -61,7 +61,7 @@
 
   function checkParent(t, elm) {
     while(t.parentNode) {
-      if( t == elm ) {return true;}
+      if( t === elm ) {return true;}
       t = t.parentNode;
     }
     return false;
