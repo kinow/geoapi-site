@@ -7,11 +7,12 @@
 
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
+    <div class="container w-full flex flex-wrap px-1 pt-8 lg:pt-8 mt-8">
+      {%- include menu.html -%}
       <div class="wrapper">
         {{ content }}
       </div>
-    </main>
+    </div>
 
     {%- include footer.html -%}
 
