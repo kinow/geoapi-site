@@ -1,34 +1,26 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col one-half">
-      <h2 class="footer-heading">{{ site.title | escape }}</h2>
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- endif -%}
+<footer class="bg-white border-t border-gray-400 shadow">
+  <div class="container mx-auto flex py-8">
+    <div class="w-full mx-auto flex flex-wrap">
+      <div class="flex w-full lg:w-1/2 ">
+        <div class="px-8">
+          <h3 class="font-bold text-gray-900">GeoAPI</h3>
+          <p class="py-4 text-gray-600 text-sm">
+            Copyright © 1994–2019 <a href="https://www.opengeospatial.org/">Open Geospatial Consortium</a>
+          </p>
+        </div>
+      </div>
+      <div class="flex w-full lg:w-1/2 lg:justify-end lg:text-right">
+        <div class="px-8">
+          <h3 class="font-bold text-gray-900">Links</h3>
+          <ul class="list-reset items-center text-sm pt-3">
+            <li>
+              <a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:underline py-1" href="#">Twitter?</a>
             </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col one-half">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-
-      <div class="social-links">
-        {%- include social.html -%}
+          </ul>
+        </div>
       </div>
     </div>
-
   </div>
-
 </footer>
 <script>
   /*Toggle dropdown list*/
