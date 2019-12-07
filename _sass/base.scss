@@ -11405,6 +11405,11 @@ a {
   text-decoration: underline;
 }
 
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
