@@ -12,8 +12,8 @@ layout: default
 <p class="text-justify tracking-normal subpixel-antialiased my-6">GeoAPI provides a set programming interfaces for geospatial applications. In a series of packages or modules,
 GeoAPI 3.0 defines interfaces for metadata handling and for geodetic referencing (map projections).
 The GeoAPI interfaces closely follow the abstract models published collaboratively by the
-<a href="https://www.isotc211.org/"  class="underline">International Organization for Standardization</a> (ISO) in its 19100
-series of documents and the <a href="https://www.opengeospatial.org/"  class="underline">Open Geospatial Consortium</a> (OGC) in
+<a href="https://www.isotc211.org/">International Organization for Standardization</a> (ISO) in its 19100
+series of documents and the <a href="https://www.opengeospatial.org/">Open Geospatial Consortium</a> (OGC) in
 its abstract and implementation specifications. GeoAPI provides an interpretation and adaptation of these
 standards to match the expectations of Java or Python programmers. These standards provide GeoAPI with
 the richness which comes from the expertise of the specification writers. Clients benefit from the potential
@@ -31,6 +31,6 @@ particular implementation which they will use.</p>
 </div>
 
 <p class="text-justify tracking-normal subpixel-antialiased my-6">In order to use GeoAPI, developers must select a third-party implementation. Examples about how to use
-GeoAPI with some third-party libraries are available in <a href="/java/examples/usage.html"  class="underline">Java</a> and
-<a href="/python/examples/index.html"  class="underline">Python</a>. There is also some more examples about how to
-<a href="/java/examples/index.html"  class="underline">implement and test</a> a new GeoAPI implementation.</p>
+GeoAPI with some third-party libraries are available in <a href="/java/examples/usage.html">Java</a> and
+<a href="/python/examples/index.html">Python</a>. There is also some more examples about how to
+<a href="/java/examples/index.html">implement and test</a> a new GeoAPI implementation.</p>
