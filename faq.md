@@ -188,7 +188,7 @@ faqs:
 <!-- questions -->
 <ol class="mt-4 mb-8 ml-4 list-decimal">
 {%- for faq in page.faqs -%}
-<li class="my-1"><a href="#question-{{ forloop.index }}" class="underline">{{ faq.question }}</a></li>
+<li class="my-1"><a href="#question-{{ forloop.index }}">{{ faq.question }}</a></li>
 {%- endfor -%}
 </ol>
 
