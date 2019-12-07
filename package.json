@@ -1,0 +1,11 @@
+{
+  "name": "geoapi",
+  "version": "1.0.0",
+  "description": "Based on https://www.tailwindtoolbox.com/templates/help-article, Tailwind docs, and minima Jekyll theme.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GeoAPI"
+}
