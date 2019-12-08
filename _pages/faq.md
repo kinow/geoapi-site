@@ -240,6 +240,7 @@ faqs:
 
 <div class="my-2">
 {{ faq.answer }}
+<a href="#top" class="my-4 text-sm text-gray-600">Back to the top</a>
 </div>
 
 {%- if forloop.last == false -%}
