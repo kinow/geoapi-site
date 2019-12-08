@@ -27,6 +27,15 @@ menu:
    link: "/"
  - text: "License"
    link: "https://www.opengeospatial.org/ogc/software"
+   is_external: true
+ - text: "Latest release"
+   link: "/3.0/index.html"
+ - text: "Conformance"
+   link: "/conformance/index.html"
+ - text: "Developments"
+   link: "/snapshot/index.html"
+ - text: "FAQ"
+   link: "/faq.html"
 
 # Build settings
 markdown: kramdown

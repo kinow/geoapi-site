@@ -16,54 +16,16 @@
             <li class="py-0 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent">
                 <a href="{{ entry.link' | relative_url }}" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent {{ link_class }}">
                     <span class="text-sm">{{ entry.text }}</span>
+                    {%- if entry.is_external -%}
+                    <svg class="ml-1 w-4 h-4 fill-current text-gray-600 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path class="heroicon-ui" d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z"/>
+                    </svg>
+                    {%- endif -%}
                 </a>
             </li>
             {%- endfor -%}
             {%- if page.menu -%}
             {%- endif -%}
-            <li class="py-0 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent">
-                <a href="https://www.opengeospatial.org/ogc/software" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent lg:hover:border-gray-400">
-                    <span class="text-sm">License</span>
-                    <svg class="w-4 h-4 fill-current text-gray-600 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path class="heroicon-ui" d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z"/>
-                    </svg>
-                </a>
-            </li>
-            <li class="py-0 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent">
-                <a href="{{ '/3.0/index.html' | relative_url }}" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent lg:hover:border-gray-400">
-                    <span class="text-sm">Latest release</span>
-                </a>
-                <ul class="list-reset">
-                    <li class="pr-2 pl-4 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent">
-                        <a href="https://www.opengeospatial.org/standards/geoapi" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent lg:hover:border-gray-400">
-                            <span class="text-sm">Specification</span>
-                            <svg class="w-4 h-4 fill-current text-gray-600 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <path class="heroicon-ui" d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z"/>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="pr-2 pl-4 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent">
-                        <a href="{{ '/3.0/javadoc/index.html' | relative_url }}" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent lg:hover:border-gray-400">
-                            <span class="text-sm">Java API</span>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <li class="py-0 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent">
-                <a href="#" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent lg:hover:border-gray-400">
-                    <span class="text-sm">Conformance</span>
-                </a>
-            </li>
-            <li class="py-0 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent">
-                <a href="#" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent lg:hover:border-gray-400">
-                    <span class="text-sm">Developments</span>
-                </a>
-            </li>
-            <li class="py-0 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent">
-                <a href="{{ '/faq.html' | relative_url }}" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent lg:hover:border-gray-400">
-                    <span class="text-sm">FAQ</span>
-                </a>
-            </li>
         </ul>
     </div>
 </div>
