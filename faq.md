@@ -11,9 +11,24 @@ faqs:
         Java GIS projects.
       </p>
       <ul class="list-disc ml-4">
-        <li class="my-1"><a class="externalLink" href="http://web.archive.org/web/20030509104308/http://digitalearth.org/story/2002/10/10/55046/206">Call for a Geo-Spatial <abbr>API</abbr></a></li>
-        <li class="my-1"><a class="externalLink" href="http://web.archive.org/web/20030510220525/http://digitalearth.org/story/2002/12/2/195021/503">Java GeoSpatial <abbr>API</abbr> Part II</a></li>
-        <li class="my-1"><a class="externalLink" href="http://web.archive.org/web/20030501122912/http://digitalearth.org/story/2002/12/12/121814/73">Java GeoSpatial <abbr>API</abbr> Part III</a></li>
+        <li class="my-1">
+          <a href="http://web.archive.org/web/20030509104308/http://digitalearth.org/story/2002/10/10/55046/206">Call for a Geo-Spatial <abbr>API</abbr></a>
+          <svg class="w-4 h-4 fill-current text-gray-600 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path class="heroicon-ui" d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z"/>
+          </svg>
+        </li>
+        <li class="my-1">
+          <a href="http://web.archive.org/web/20030510220525/http://digitalearth.org/story/2002/12/2/195021/503">Java GeoSpatial <abbr>API</abbr> Part II</a>
+          <svg class="w-4 h-4 fill-current text-gray-600 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path class="heroicon-ui" d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z"/>
+          </svg>
+        </li>
+        <li class="my-1">
+          <a href="http://web.archive.org/web/20030501122912/http://digitalearth.org/story/2002/12/12/121814/73">Java GeoSpatial <abbr>API</abbr> Part III</a>
+          <svg class="w-4 h-4 fill-current text-gray-600 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path class="heroicon-ui" d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z"/>
+          </svg>
+        </li>
       </ul>
       <p>
         In part III, the <abbr>OGC</abbr> had just announced a Geographic Objects initiative
@@ -111,7 +126,10 @@ faqs:
     answer: |
       <p>
         The <abbr>ISO</abbr> 19103, 19111 and 19115 specifications define mostly <cite>data structures</cite> convertible
-        to XML or database schemas. Indeed, the <a class="externalLink" href="http://www.epsg.org">EPSG</a> database schema follows
+        to XML or database schemas. Indeed, the <a href="http://www.epsg.org">EPSG</a>
+        <svg class="w-4 h-4 fill-current text-gray-600 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path class="heroicon-ui" d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z"/>
+        </svg> database schema follows
         closely the <abbr>ISO</abbr> 19111 structures. However those <abbr>ISO</abbr> specifications define few operations.
         For example <abbr>ISO</abbr> 19111 provides data structures for describing accurately <cite>Coordinate Reference System</cite>
         objects, but does not said much about how to get instances of them (except from a geodetic dataset).
@@ -127,7 +145,10 @@ faqs:
       </p>
       <ul class="list-disc ml-4">
         <li class="my-1">In the &quot;<cite>Comparison with legacy <abbr>OGC</abbr> specifications</cite>&quot; annex in the
-          <a class="externalLink" href="https://www.opengeospatial.org/standards/geoapi">GeoAPI specification</a>.</li>
+          <a href="https://www.opengeospatial.org/standards/geoapi">GeoAPI specification</a>
+          <svg class="w-4 h-4 fill-current text-gray-600 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path class="heroicon-ui" d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z"/>
+          </svg>.</li>
         <li class="my-1">In the list of <a href="3.0/javadoc/departures.html">departures from the <abbr>ISO</abbr>/<abbr>OGC</abbr> specifications</a>
           (also an annex in the GeoAPI specification).</li>
         <li class="my-1">In source code, class files and javadoc using the <a href="3.0/javadoc/org/opengis/annotation/UML.html">UML annotation</a>
@@ -148,7 +169,11 @@ faqs:
         We tried that path at the beginning of GeoAPI project, and abandoned it.
         Automatic scripts provide useful starting points, but their output do not alway match the expectations of developers.
         For example a popular approach is to generate Java classes
-        from the <a class="externalLink" href="http://schemas.opengis.net">XML schemas</a> using JAXB-related technologies.
+        from the <a href="http://schemas.opengis.net">XML schemas</a>
+        <svg class="w-4 h-4 fill-current text-gray-600 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path class="heroicon-ui" d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z"/>
+        </svg>
+        using JAXB-related technologies.
         Unfortunately the XML schemas defined by <abbr>ISO</abbr> 19139 are quite unusual, introducing a lot of redundant elements
         (e.g. <code>citation</code> property values wrapped in <code>CI_Citation</code> XML elements,
         and so on for all other properties).
