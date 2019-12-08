@@ -4,9 +4,10 @@ layout: default
 ---
 <h1>GeoAPI examples in Python</h1>
 
-<p class="warning">
-  <b>Note:</b> this page describes a work in progress.
-</p>
+<div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 my-4 rounded relative" role="alert">
+  <strong class="font-bold">Note:</strong>
+  <span class="block sm:inline">this page describes a work in progress.</span>
+</div>
 
 <p>
   GeoAPI provides a set of Java and Python language programming interfaces for geospatial applications.
