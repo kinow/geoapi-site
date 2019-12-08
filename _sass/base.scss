@@ -11407,7 +11407,11 @@ a {
 
 p {
   margin-top: 1rem;
-  margin-bottom: 1rem
+  margin-bottom: 1rem;
+  text-align: justify;
+  letter-spacing: 0;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
 }
 
 @media (min-width: 640px) {

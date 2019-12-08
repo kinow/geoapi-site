@@ -9,7 +9,7 @@ layout: default
     <h2 class="text-2xl font-bold">OGC&reg; GeoAPI</h2>
 </div>
 
-<p class="text-justify tracking-normal subpixel-antialiased my-6">GeoAPI provides a set programming interfaces for geospatial applications. In a series of packages or modules,
+<p>GeoAPI provides a set programming interfaces for geospatial applications. In a series of packages or modules,
 GeoAPI 3.0 defines interfaces for metadata handling and for geodetic referencing (map projections).
 The GeoAPI interfaces closely follow the abstract models published collaboratively by the
 <a href="https://www.isotc211.org/">International Organization for Standardization</a> (ISO) in its 19100
@@ -20,17 +20,17 @@ the richness which comes from the expertise of the specification writers. Client
 for inter-operability which comes from using a well defined, standardized data model. Implementers benefit
 from having a pre-defined set of well considered, formal boundaries to modularize their development work.</p>
 
-<p class="text-justify tracking-normal subpixel-antialiased my-6">The GeoAPI interfaces provide a layer which separates client code, which call the API, from library code,
-which implements the API. This follows a similar pattern to the well known
-<abbr title="Java Database Connectivity">JDBC</abbr> or <abbr title="Open Database Connectivity">ODBC</abbr>
-API which provides a standardized interface to databases. Clients can use the API without concern for the
-particular implementation which they will use.</p>
+<p class="text-justify tracking-normal subpixel-antialiased my-6">The GeoAPI interfaces provide a layer which separates
+client code, which call the API, from library code, which implements the API. This follows a similar pattern to 
+the well known <abbr title="Java Database Connectivity">JDBC</abbr> or
+<abbr title="Open Database Connectivity">ODBC</abbr> API which provides a standardized interface to databases.
+Clients can use the API without concern for the particular implementation which they will use.</p>
 
 <div class="font-sans">
     <h2 class="text-2xl font-bold">Usage Examples</h2>
 </div>
 
-<p class="text-justify tracking-normal subpixel-antialiased my-6">In order to use GeoAPI, developers must select a third-party implementation. Examples about how to use
+<p>In order to use GeoAPI, developers must select a third-party implementation. Examples about how to use
 GeoAPI with some third-party libraries are available in <a href="/java/examples/usage.html">Java</a> and
 <a href="/python/examples/index.html">Python</a>. There is also some more examples about how to
 <a href="/java/examples/index.html">implement and test</a> a new GeoAPI implementation.</p>
