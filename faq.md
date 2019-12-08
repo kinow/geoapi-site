@@ -216,9 +216,7 @@ faqs:
       </p>
 ---
 
-<div class="font-sans">
-  <h2 id="top" class="text-2xl font-bold">Frequently Asked Questions</h2>
-</div>
+<h2 id="top">Frequently Asked Questions</h2>
 
 <!-- questions -->
 <ol class="mt-4 mb-8 ml-4 list-decimal">
@@ -230,7 +228,7 @@ faqs:
 <!-- answers -->
 {%- for faq in page.faqs -%}
 <div class="font-sans">
-  <h3 id="question-{{ forloop.index }}" class="text-1xl font-bold">{{ faq.question }}</h3>
+  <h3 id="question-{{ forloop.index }}">{{ faq.question }}</h3>
 </div>
 
 <div class="my-2">
