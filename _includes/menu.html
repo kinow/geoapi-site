@@ -10,7 +10,7 @@
     <div class="w-full sticky inset-0 hidden h-64 lg:h-auto overflow-x-hidden overflow-y-auto lg:overflow-y-hidden lg:block mt-0 border border-gray-400 lg:border-transparent bg-white shadow lg:shadow-none lg:bg-transparent z-20" style="top:5em;" id="menu-content">
         <ul class="list-reset">
             <li class="py-2 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent">
-                <a href="{{ base }}/" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent lg:border-blue-500 lg:hover:border-blue-500">
+                <a href="{{ '/' | relative_url }}/" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent lg:border-blue-500 lg:hover:border-blue-500">
                     <span class="pb-1 md:pb-0 text-sm text-gray-900 font-bold">Home</span>
                 </a>
             </li>
@@ -20,7 +20,7 @@
                 </a>
             </li>
             <li class="py-2 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent">
-                <a href="/3.0/index.html" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent lg:hover:border-gray-400">
+                <a href="{{ '/3.0/index.html' | relative_url }}" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent lg:hover:border-gray-400">
                     <span class="pb-1 md:pb-0 text-sm">Latest release</span>
                 </a>
                 <ul class="list-reset">
@@ -30,7 +30,7 @@
                         </a>
                     </li>
                     <li class="pr-2 pl-4 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent">
-                        <a href="/3.0/javadoc/index.html" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent lg:hover:border-gray-400">
+                        <a href="{{ '/3.0/javadoc/index.html' | relative_url }}" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent lg:hover:border-gray-400">
                             <span class="pb-1 md:pb-0 text-sm">Java API</span>
                         </a>
                     </li>
@@ -47,7 +47,7 @@
                 </a>
             </li>
             <li class="py-2 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent">
-                <a href="{{ base }}/faq" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent lg:hover:border-gray-400">
+                <a href="{{ '/faq' | relative_url }}" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent lg:hover:border-gray-400">
                     <span class="pb-1 md:pb-0 text-sm">FAQ</span>
                 </a>
             </li>
