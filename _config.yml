@@ -16,7 +16,7 @@
 title: GeoAPI
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  GeoAPI provides a set programming interfaces for geospatial applications.
+ Programming interfaces for geospatial applications
 baseurl: "geoapi-site" # the subpath of your site, e.g. /blog
 url: "https://www.geoapi.org/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
