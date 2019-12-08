@@ -22,6 +22,12 @@ url: "https://www.geoapi.org/" # the base hostname & protocol for your site, e.g
 twitter_username:
 github_username:
 
+menu:
+ - text: "Home"
+   link: "/"
+ - text: "License"
+   link: "https://www.opengeospatial.org/ogc/software"
+
 # Build settings
 markdown: kramdown
 theme: minima

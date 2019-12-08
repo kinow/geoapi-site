@@ -1,6 +1,17 @@
 ---
 permalink: "/python/index.html"
 layout: default
+menu:
+  - text: "Python"
+    link: "/python/index.html"
+  - text: API (snapshot)
+    link: "/snapshot/python/index.html"
+  - text: "Source files"
+    link: "https://github.com/opengeospatial/geoapi/tree/master/geoapi/src/main/python/opengis"
+  - text: "Examples"
+    link: "/python/examples/index.html"
+  - text: "Bridge with Java"
+    link: "/java-python/index.html"
 ---
 <h1>Python API</h1>
 <p>
