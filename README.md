@@ -22,3 +22,4 @@ a {
 - `npm run postcss`: runs postcss on `base.scss`, customizing tailwindcss to this project, generating a file imported by
 Jekyll. Run this command anytime you change `base.css`.
 - `jekyll serve` (or `bundle exec jekyll serve`): starts Jekyll running a development server to serve the site locally.
+A good way to avoid caching, is to run something similar to `rm -rf _site && bundle exec jekyll serve -w --incremental --baseurl ""`.
