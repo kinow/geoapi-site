@@ -2,6 +2,7 @@
 layout: default
 faqs:
   - question: How did the GeoAPI project get started, and what is its history?
+    anchor: 'start'
     answer: |
       <p>
         The GeoAPI project emerged from the collaboration of several free software projects and
@@ -50,6 +51,7 @@ faqs:
         produced by this group became an <abbr>OGC</abbr> standard in April 2011.
       </p>
   - question: What is the relationship between GeoAPI and <abbr>OGC</abbr>?
+    anchor: 'OGC'
     answer: |
       <p>
         GeoAPI is closely tied to the <abbr>OGC</abbr> both in its origins and in its ongoing work.
@@ -76,6 +78,7 @@ faqs:
         of GeoAPI, the first specification released under this name carry the 3.0 version number.
       </p>
   - question: Why a standardized set of programming interfaces? Shouldn't <abbr>OGC</abbr> standards stick to web services only?
+    anchor: 'why'
     answer:
       <p>
         We believe that both approaches are complementary. Web services are efficient ways to publish geographic
@@ -105,6 +108,7 @@ faqs:
         Defining a standard <abbr>API</abbr> suitable for cloud environments is part of GeoAPI goals.
       </p>
   - question: With standardization of interfaces, aren't you forcing a particular implementation?
+    anchor: 'implementation'
     answer: |
       <p>
         We try to carefully avoid implementation-specific <abbr>API</abbr>.
@@ -123,6 +127,7 @@ faqs:
         interface and its parent interfaces.
       </p>
   - question: Why GeoAPI has some departures from <abbr>ISO</abbr> specifications? Shouldn't GeoAPI be strictly <abbr>ISO</abbr>-compliant?
+    anchor: 'departures'
     answer: |
       <p>
         The <abbr>ISO</abbr> 19103, 19111 and 19115 specifications define mostly <cite>data structures</cite> convertible
@@ -164,6 +169,7 @@ faqs:
         (e.g. Java has no direct equivalent for the C/C++ <code>enum</code> construct).
       </p>
   - question: Why don't you translate all <abbr>OGC</abbr>'s UML into programmatic interfaces using some automatic script?
+    anchor: 'scripts'
     answer: |
       <p>
         We tried that path at the beginning of GeoAPI project, and abandoned it.
@@ -221,14 +227,14 @@ faqs:
 <!-- questions -->
 <ol class="mt-4 mb-8 ml-4 list-decimal">
 {%- for faq in page.faqs -%}
-<li class="my-1 text-justify"><a href="#question-{{ forloop.index }}">{{ faq.question }}</a></li>
+<li class="my-1 text-justify"><a href="#{{ faq.anchor }}">{{ faq.question }}</a></li>
 {%- endfor -%}
 </ol>
 
 <!-- answers -->
 {%- for faq in page.faqs -%}
 <div class="font-sans">
-  <h3 id="question-{{ forloop.index }}">{{ faq.question }}</h3>
+  <h3 id="{{ faq.anchor }}">{{ faq.question }}</h3>
 </div>
 
 <div class="my-2">
