@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: "/faq.html"
 faqs:
   - question: How did the GeoAPI project get started, and what is its history?
     anchor: 'start'
