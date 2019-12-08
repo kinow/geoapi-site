@@ -23,5 +23,9 @@ a {
 }
 
 p {
-  @apply my-4 text-justify tracking-normal subpixel-antialiased;
+  @apply my-4 text-justify tracking-normal subpixel-antialiased text-gray-800;
+}
+
+code, pre {
+  @apply text-gray-600;
 }
