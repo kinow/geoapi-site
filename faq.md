@@ -11,19 +11,19 @@ faqs:
         Java GIS projects.
       </p>
       <ul class="list-disc ml-4">
-        <li class="my-1">
+        <li class="my-1 text-justify">
           <a href="http://web.archive.org/web/20030509104308/http://digitalearth.org/story/2002/10/10/55046/206">Call for a Geo-Spatial <abbr>API</abbr></a>
           <svg class="w-4 h-4 fill-current text-gray-600 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path class="heroicon-ui" d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z"/>
           </svg>
         </li>
-        <li class="my-1">
+        <li class="my-1 text-justify">
           <a href="http://web.archive.org/web/20030510220525/http://digitalearth.org/story/2002/12/2/195021/503">Java GeoSpatial <abbr>API</abbr> Part II</a>
           <svg class="w-4 h-4 fill-current text-gray-600 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path class="heroicon-ui" d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z"/>
           </svg>
         </li>
-        <li class="my-1">
+        <li class="my-1 text-justify">
           <a href="http://web.archive.org/web/20030501122912/http://digitalearth.org/story/2002/12/12/121814/73">Java GeoSpatial <abbr>API</abbr> Part III</a>
           <svg class="w-4 h-4 fill-current text-gray-600 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path class="heroicon-ui" d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z"/>
@@ -144,14 +144,14 @@ faqs:
         Those methods are documented in various places:
       </p>
       <ul class="list-disc ml-4">
-        <li class="my-1">In the &quot;<cite>Comparison with legacy <abbr>OGC</abbr> specifications</cite>&quot; annex in the
+        <li class="my-1 text-justify">In the &quot;<cite>Comparison with legacy <abbr>OGC</abbr> specifications</cite>&quot; annex in the
           <a href="https://www.opengeospatial.org/standards/geoapi">GeoAPI specification</a>
           <svg class="w-4 h-4 fill-current text-gray-600 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
           <path class="heroicon-ui" d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z"/>
           </svg>.</li>
-        <li class="my-1">In the list of <a href="3.0/javadoc/departures.html">departures from the <abbr>ISO</abbr>/<abbr>OGC</abbr> specifications</a>
+        <li class="my-1 text-justify">In the list of <a href="3.0/javadoc/departures.html">departures from the <abbr>ISO</abbr>/<abbr>OGC</abbr> specifications</a>
           (also an annex in the GeoAPI specification).</li>
-        <li class="my-1">In source code, class files and javadoc using the <a href="3.0/javadoc/org/opengis/annotation/UML.html">UML annotation</a>
+        <li class="my-1 text-justify">In source code, class files and javadoc using the <a href="3.0/javadoc/org/opengis/annotation/UML.html">UML annotation</a>
           associated with the <a href="3.0/javadoc/org/opengis/annotation/Specification.html#OGC_01009"><abbr>OGC</abbr> 01-009 specification enum</a>
           or an other <abbr>OGC</abbr> enum.</li>
       </ul>
@@ -186,18 +186,18 @@ faqs:
         For example:
       </p>
       <ul class="list-disc ml-4">
-        <li class="my-1">
+        <li class="my-1 text-justify">
           Structures of type <code>union</code> are expressed in Java either by rearranging the
           interface hierarchy, by interface multi-inheritance or by omitting the data structure,
           on a case-by-case basis.
         </li>
-        <li class="my-1">
+        <li class="my-1 text-justify">
           Resolution of some specification overlapping require human reading. For example
           <abbr>ISO</abbr> 19111:2007 section 3 specifies &quot;<cite>in this international standard, normative
           reference to <abbr>ISO</abbr> 19115 excludes the <code>MD_CRS</code> class and its components classes</cite>&quot;
           in order to avoid duplication. An automatic script would not have done this exclusion.
         </li>
-        <li class="my-1">
+        <li class="my-1 text-justify">
           Some complexity introduced by historical standardization processes can be avoided.
           For example <abbr>ISO</abbr> 19115-2 defines imagery metadata which were not ready
           in time for the <abbr>ISO</abbr> 19115 schedule.
@@ -205,7 +205,7 @@ faqs:
           they were added in <abbr>ISO</abbr> 19115-2 sub-classes of the same name (e.g. <code>MI_Band extends MD_Band</code>).
           GeoAPI merges those &quot;geological layers&quot;.
         </li>
-        <li class="my-1">
+        <li class="my-1 text-justify">
           Some additional interfaces or methods were introduced (see <a href="#departures">Why
           GeoAPI has some departures from <abbr>ISO</abbr> specifications?</a>).
         </li>
@@ -221,7 +221,7 @@ faqs:
 <!-- questions -->
 <ol class="mt-4 mb-8 ml-4 list-decimal">
 {%- for faq in page.faqs -%}
-<li class="my-1"><a href="#question-{{ forloop.index }}">{{ faq.question }}</a></li>
+<li class="my-1 text-justify"><a href="#question-{{ forloop.index }}">{{ faq.question }}</a></li>
 {%- endfor -%}
 </ol>
 
