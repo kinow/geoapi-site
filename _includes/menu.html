@@ -40,7 +40,7 @@
           {%- endif -%}
         </a>
       </li>
-        {%- if active_link_class == true and page.pagemenu -%}
+        {%- if page.url == entry.link and page.pagemenu -%}
           {%- for pagemenu_entry in page.pagemenu -%}
             {%- if page.url == pagemenu_entry.link -%}
             {%- assign link_class = active_link_class -%}
@@ -50,7 +50,7 @@
       <li class="py-0 ml-2 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent">
         <a href="{{ pagemenu_entry.link | relative_url }}" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent {{ link_class }}">
           <span class="text-sm">{{ pagemenu_entry.text }}</span>
-          {%- if entry.is_external -%}
+          {%- if pagemenu_entry.is_external -%}
           <svg class="ml-1 w-4 h-4 fill-current text-gray-600 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path class="heroicon-ui" d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z"/>
           </svg>
@@ -63,19 +63,17 @@
       {%- endfor -%}
       {%- comment -%}Page-menus{%- endcomment -%}
       {%- if pagemenu_done == false && page.pagemenu -%}
-      {%- for entry in page.pagemenu -%}
-      {%- comment -%}This is for the style of the active link (we decide which item is active here too){%- endcomment -%}
-      {%- if page.url == entry.link -%}
-      {%- assign link_class = active_link_class -%}
-      {%- elsif entry.link != '/' and page.url contains entry.link -%}
-      {%- assign link_class = active_link_class -%}
-      {%- else -%}
-      {%- assign link_class = normal_link_class -%}
-      {%- endif -%}
-      {%- assign margin_class = "my-0" -%}
-      {%- if forloop.first -%}
-        {%- assign margin_class = "mb-0 mt-4 border-t-2" -%}
-      {%- endif -%}
+        {%- for entry in page.pagemenu -%}
+        {%- comment -%}This is for the style of the active link (we decide which item is active here too){%- endcomment -%}
+        {%- if page.url == entry.link -%}
+          {%- assign link_class = active_link_class -%}
+        {%- else -%}
+          {%- assign link_class = normal_link_class -%}
+        {%- endif -%}
+        {%- assign margin_class = "my-0" -%}
+        {%- if forloop.first -%}
+          {%- assign margin_class = "mb-0 mt-4 border-t-2" -%}
+        {%- endif -%}
       <li class="py-0 md:{{ margin_class }} hover:bg-blue-200 lg:hover:bg-transparent">
         <a href="{{ entry.link | relative_url }}" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent {{ link_class }}">
           <span class="text-sm">{{ entry.text }}</span>
@@ -86,7 +84,7 @@
           {%- endif -%}
         </a>
       </li>
-      {%- endfor -%}
+        {%- endfor -%}
       {%- endif -%}
     </ul>
   </div>

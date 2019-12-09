@@ -38,13 +38,13 @@ menu:
 
 defaults:
   - scope:
-      path: "*/3.0/index*"
+      path: "*3.0*"
     values:
       pagemenu:
         - text: "Specification"
           link: "https://www.opengeospatial.org/standards/geoapi"
           is_external: true
-        - text: Java API
+        - text: "Java API"
           link: "/3.0/javadoc/index.html"
   - scope:
       path: "*/python*"
@@ -56,6 +56,7 @@ defaults:
           link: "/snapshot/python/index.html"
         - text: "Source files"
           link: "https://github.com/opengeospatial/geoapi/tree/master/geoapi/src/main/python/opengis"
+          is_external: true
         - text: "Examples"
           link: "/python/examples/index.html"
         - text: "Bridge with Java"
