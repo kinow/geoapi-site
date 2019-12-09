@@ -71,6 +71,12 @@ defaults:
           link: "/python/examples/index.html"
         - text: "Bridge with Java"
           link: "/java-python/index.html"
+  - scope:
+      path: "*/web/**"
+    values:
+      pagemenu:
+        - text: "Web API"
+          link: "/web/index.html"
 
 # Build settings
 markdown: kramdown
