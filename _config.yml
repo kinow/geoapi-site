@@ -111,6 +111,7 @@ permalink: pretty
 
 include:
   - 3.0
+  - conformance
   - snapshot
 
 # Exclude from processing.
