@@ -47,6 +47,16 @@ defaults:
         - text: "Java API"
           link: "/3.0/javadoc/index.html"
   - scope:
+      path: "*/java-python*"
+    values:
+      pagemenu:
+        - text: "Java ↔ Python"
+          link: "/java-python/index.html"
+        - text: "Java API"
+          link: "/java/index.html"
+        - text: "Python API"
+          link: "/python/index.html"
+  - scope:
       path: "*/python*"
     values:
       pagemenu:
