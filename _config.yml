@@ -126,6 +126,7 @@ permalink: pretty
 include:
   - 3.0
   - conformance
+  - java
   - snapshot
 
 # Exclude from processing.
