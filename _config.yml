@@ -92,6 +92,20 @@ defaults:
         - text: "Roadmap"
           link: "https://github.com/opengeospatial/geoapi/wiki"
           is_external: true
+  - scope:
+      path: "*/java/*"
+    values:
+      pagemenu:
+        - text: Java
+          link: "/java/index.html"
+        - text: API (release)
+          link: "/3.0/javadoc/index.html"
+        - text: API (preview)
+          link: "/snapshot/javadoc/index.html"
+        - text: Examples
+          link: "/java/examples/index.html"
+        - text: Bridge with Python
+          link: "/java-python/index.html"
 
 # Build settings
 markdown: kramdown
