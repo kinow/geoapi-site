@@ -36,6 +36,31 @@ menu:
  - text: "FAQ"
    link: "/faq.html"
 
+defaults:
+  - scope:
+      path: "*/3.0/index*"
+    values:
+      pagemenu:
+        - text: "Specification"
+          link: "https://www.opengeospatial.org/standards/geoapi"
+          is_external: true
+        - text: Java API
+          link: "/3.0/javadoc/index.html"
+  - scope:
+      path: "*/python*"
+    values:
+      pagemenu:
+        - text: "Python"
+          link: "/python/index.html"
+        - text: API (snapshot)
+          link: "/snapshot/python/index.html"
+        - text: "Source files"
+          link: "https://github.com/opengeospatial/geoapi/tree/master/geoapi/src/main/python/opengis"
+        - text: "Examples"
+          link: "/python/examples/index.html"
+        - text: "Bridge with Java"
+          link: "/java-python/index.html"
+
 # Build settings
 markdown: kramdown
 theme: minima
