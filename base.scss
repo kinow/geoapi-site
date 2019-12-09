@@ -29,3 +29,11 @@ p {
 code, pre {
   @apply text-gray-600;
 }
+
+ul {
+  @apply list-disc ml-4;
+}
+
+ul > li {
+  @apply my-1 text-justify;
+}

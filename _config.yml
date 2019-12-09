@@ -145,4 +145,5 @@ exclude:
  - package.json
  - package-lock.json
  - postcss.config.js
+ - .sass-cache
  - README.md
