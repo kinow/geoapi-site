@@ -23,8 +23,7 @@ twitter_username:
 github_username:
 
 menu:
- - text: "Home"
-   link: "/"
+ # home, and the page-menus are handled differently in _includes/menu.html
  - text: "License"
    link: "https://www.opengeospatial.org/ogc/software"
    is_external: true
