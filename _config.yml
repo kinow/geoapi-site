@@ -77,6 +77,21 @@ defaults:
       pagemenu:
         - text: "Web API"
           link: "/web/index.html"
+  - scope:
+      path: "*/snapshot/*"
+    values:
+      pagemenu:
+        - text: Specification draft
+          link: "/snapshot/standard_document.html"
+        - text: "Java API preview"
+          link: "/snapshot/javadoc/index.html"
+        - text: "Python API preview"
+          link: "/snapshot/python/index.html"
+        - text: "Conformance"
+          link: "/snapshot/conformance.html"
+        - text: "Roadmap"
+          link: "https://github.com/opengeospatial/geoapi/wiki"
+          is_external: true
 
 # Build settings
 markdown: kramdown
