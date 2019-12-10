@@ -27,11 +27,11 @@ permalink: "/conformance/index.html"
     and can be used in a Maven project with the following declaration in the <code>pom.xml</code> file:
   </p>
 <pre>&lt;dependencies&gt;
-&lt;dependency&gt;
-&lt;groupId&gt;org.opengis&lt;/groupId&gt;
-&lt;artifactId&gt;geoapi-conformance&lt;/artifactId&gt;
-&lt;version&gt;3.0.1&lt;/version&gt;
-&lt;/dependency&gt;
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.opengis&lt;/groupId&gt;
+        &lt;artifactId&gt;geoapi-conformance&lt;/artifactId&gt;
+        &lt;version&gt;3.0.1&lt;/version&gt;
+    &lt;/dependency&gt;
 &lt;/dependencies&gt;</pre>
 </details>
 
@@ -53,14 +53,14 @@ import org.junit.*;
 import static org.opengis.test.Validators.*;
 
 public class MyTests {
-@Test
-public void testMyCRS() {
-  CoordinateReferenceSystem crs = ...
-  validate(crs);
-
-  MathTransform transform = ...
-  validate(transform);
-}
+    @Test
+    public void testMyCRS() {
+        CoordinateReferenceSystem crs = ...
+        validate(crs);
+      
+        MathTransform transform = ...
+        validate(transform);
+    }
 }</pre>
 </details>
 
