@@ -16,7 +16,7 @@
       {%- else -%}
         {%- assign link_class = normal_link_class -%}
       {%- endif -%}
-      <li class="py-0 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent">
+      <li class="py-0 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent text-left">
         <a href="{{ '/' | relative_url }}" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent {{ link_class }}">
           <span class="text-sm">Home</span>
         </a>
@@ -30,7 +30,7 @@
         {%- else -%}
           {%- assign link_class = normal_link_class -%}
         {%- endif -%}
-      <li class="py-0 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent">
+      <li class="py-0 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent text-left">
         <a href="{{ entry.link | relative_url }}" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent {{ link_class }}">
           <span class="text-sm">{{ entry.text }}</span>
           {%- if entry.is_external -%}
@@ -47,7 +47,7 @@
             {%- else -%}
             {%- assign link_class = normal_link_class -%}
             {%- endif -%}
-      <li class="py-0 ml-2 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent">
+      <li class="py-0 ml-2 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent text-left">
         <a href="{{ pagemenu_entry.link | relative_url }}" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent {{ link_class }}">
           <span class="text-sm">{{ pagemenu_entry.text }}</span>
           {%- if pagemenu_entry.is_external -%}
@@ -74,7 +74,7 @@
         {%- if forloop.first -%}
           {%- assign margin_class = "mb-0 mt-4 border-t-2" -%}
         {%- endif -%}
-      <li class="py-0 md:{{ margin_class }} hover:bg-blue-200 lg:hover:bg-transparent">
+      <li class="py-0 md:{{ margin_class }} hover:bg-blue-200 lg:hover:bg-transparent text-left">
         <a href="{{ entry.link | relative_url }}" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent {{ link_class }}">
           <span class="text-sm">{{ entry.text }}</span>
           {%- if entry.is_external -%}
