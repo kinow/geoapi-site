@@ -88,30 +88,30 @@ import java.util.Properties;
 * for MyProjection latitude values is relaxed by a factor of 10 during inverse projections.
 */
 public class GeoapiTest extends TestSuite implements ImplementationDetails {
-private static final Configuration CONFIGURATION = new Configuration();
-static {
-  CONFIGURATION.unsupported(Configuration.Key.isDerivativeSupported);
-}
+    private static final Configuration CONFIGURATION = new Configuration();
+    static {
+      CONFIGURATION.unsupported(Configuration.Key.isDerivativeSupported);
+    }
 
-/**
-* Returns the enabled/disabled state of tests, or null to keep all tests enabled.
-*/
-@Override
-public Configuration configuration(Factory... factories) {
-  return CONFIGURATION;
-}
+    /**
+    * Returns the enabled/disabled state of tests, or null to keep all tests enabled.
+    */
+    @Override
+    public Configuration configuration(Factory... factories) {
+        return CONFIGURATION;
+    }
 
-/**
-* Returns an object for modifying the tolerance thresholds when testing the given
-* math transform, or null if no change is needed.
-*/
-@Override
-public ToleranceModifier tolerance(MathTransform transform) {
-  if (transform instanceof MyProjection) {
-      return ToleranceModifiers.scale(EnumSet.of(CalculationType.INVERSE_TRANSFORM), 1, 10);
-  }
-  return null;
-}
+    /**
+    * Returns an object for modifying the tolerance thresholds when testing the given
+    * math transform, or null if no change is needed.
+    */
+    @Override
+    public ToleranceModifier tolerance(MathTransform transform) {
+        if (transform instanceof MyProjection) {
+            return ToleranceModifiers.scale(EnumSet.of(CalculationType.INVERSE_TRANSFORM), 1, 10);
+        }
+        return null;
+    }
 }</pre>
 </details>
 
@@ -139,14 +139,14 @@ import org.junit.*;
 import static org.opengis.test.Validators.*;
 
 public class MyTests {
-@Test
-public void testMyCRS() {
-  CoordinateReferenceSystem crs = ...
-  validate(crs);
-
-  MathTransform transform = ...
-  validate(transform);
-}
+    @Test
+    public void testMyCRS() {
+        CoordinateReferenceSystem crs = ...
+        validate(crs);
+      
+        MathTransform transform = ...
+        validate(transform);
+    }
 }</pre>
 </details>
 
