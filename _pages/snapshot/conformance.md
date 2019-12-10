@@ -13,7 +13,9 @@ permalink: "/snapshot/conformance.html"
   The GeoAPI conformance tests are currently written in Java as JUnit tests,
   but implementations in other languages can be tested using for example the
   <a href="../java-python/index.html">Java-Python</a> bridge.
-  GeoAPI tests provide three kinds of Java classes:</p>
+  GeoAPI tests provide three kinds of Java classes:
+</p>
+
 <ul>
   <li><a href="../conformance/java/org/opengis/test/Validators.html">Validators</a> for testing the conformance of existing instances of GeoAPI interfaces.</li>
   <li><a href="../conformance/java/org/opengis/test/TestCase.html">TestCase</a> as the base class of all JUnit tests in this module, which can be extended by developers on a case-by-case basis.</li>
