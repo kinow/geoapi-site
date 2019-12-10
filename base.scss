@@ -27,13 +27,17 @@ p {
 }
 
 code, pre {
-  @apply text-gray-600 text-sm;
+  @apply text-gray-600 text-sm my-4;
 }
 
 ul {
-  @apply list-disc ml-4;
+  @apply list-disc ml-4 my-4;
 }
 
 ul > li {
   @apply my-1 text-justify;
+}
+
+details {
+  @apply my-4;
 }
