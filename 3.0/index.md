@@ -23,11 +23,11 @@ permalink: "/3.0/index.html"
   and can be used in a Maven project with the following declaration in the <code>pom.xml</code> file:
 </p>
 <pre>&lt;dependencies&gt;
-&lt;dependency&gt;
-&lt;groupId&gt;org.opengis&lt;/groupId&gt;
-&lt;artifactId&gt;geoapi&lt;/artifactId&gt;
-&lt;version&gt;3.0.1&lt;/version&gt;
-&lt;/dependency&gt;
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.opengis&lt;/groupId&gt;
+        &lt;artifactId&gt;geoapi&lt;/artifactId&gt;
+        &lt;version&gt;3.0.1&lt;/version&gt;
+    &lt;/dependency&gt;
 &lt;/dependencies&gt;</pre>
   </li>
 </ul>
