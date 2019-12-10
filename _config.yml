@@ -109,22 +109,20 @@ defaults:
         - text: Bridge with Python
           link: "/java-python/index.html"
   - scope:
-      path: "*/archives/*"
+      path: "*/changes/*"
     values:
       pagemenu:
-        - text: Archives
-          link: "/changes/index.html"
-        - text: 0.1
+        - text: "0.1"
           link: "/changes/0.1/index.html"
-        - text: 1.0
+        - text: "1.0"
           link: "/changes/1.0/index.html"
-        - text: 2.0
+        - text: "2.0"
           link: "/changes/2.0/index.html"
-        - text: 2.1
+        - text: "2.1"
           link: "/changes/2.1/index.html"
-        - text: 2.2
+        - text: "2.2"
           link: "/changes/2.2/index.html"
-        - text: 2.3
+        - text: "2.3"
           link: "/changes/2.3/index.html"
 
 # Build settings
