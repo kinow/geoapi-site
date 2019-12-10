@@ -11,11 +11,11 @@ permalink: "/java/index.html"
 </p>
 
 <pre>&lt;dependencies&gt;
-&lt;dependency&gt;
-&lt;groupId&gt;org.opengis&lt;/groupId&gt;
-&lt;artifactId&gt;geoapi&lt;/artifactId&gt;
-&lt;version&gt;3.0.1&lt;/version&gt;
-&lt;/dependency&gt;
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.opengis&lt;/groupId&gt;
+        &lt;artifactId&gt;geoapi&lt;/artifactId&gt;
+        &lt;version&gt;3.0.1&lt;/version&gt;
+    &lt;/dependency&gt;
 &lt;/dependencies&gt;</pre>
 
 <p>
