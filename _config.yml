@@ -109,7 +109,7 @@ defaults:
         - text: Bridge with Python
           link: "/java-python/index.html"
   - scope:
-      path: "*/changes/*"
+      path: "*/changes*"
     values:
       pagemenu:
         - text: "0.1"
