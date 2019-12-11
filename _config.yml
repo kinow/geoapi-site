@@ -43,6 +43,8 @@ defaults:
       path: "*3.0*"
     values:
       pagemenu:
+        - text: "Latest release"
+          link: "/3.0/index.html"
         - text: "Specification"
           link: "https://www.opengeospatial.org/standards/geoapi"
           is_external: true
@@ -83,6 +85,8 @@ defaults:
       path: "*/snapshot/*"
     values:
       pagemenu:
+        - text: "Developments"
+          link: "/snapshot/index.html"
         - text: Specification draft
           link: "/snapshot/standard_document.html"
         - text: "Java API preview"
@@ -112,6 +116,8 @@ defaults:
       path: "*/changes*"
     values:
       pagemenu:
+        - text: "Archives"
+          link: "/changes/index.html"
         - text: "0.1"
           link: "/changes/0.1/index.html"
         - text: "1.0"

@@ -40,13 +40,14 @@
           {%- endif -%}
         </a>
       </li>
-        {%- if page.url == entry.link and page.pagemenu -%}
-          {%- for pagemenu_entry in page.pagemenu -%}
-            {%- if page.url == pagemenu_entry.link -%}
-            {%- assign link_class = active_link_class -%}
-            {%- else -%}
-            {%- assign link_class = normal_link_class -%}
-            {%- endif -%}
+        {%- if page.pagemenu -%}
+          {%- if page.pagemenu[0].link == entry.link -%}
+            {%- for pagemenu_entry in page.pagemenu offset:1 -%}
+              {%- if page.url == pagemenu_entry.link -%}
+              {%- assign link_class = active_link_class -%}
+              {%- else -%}
+              {%- assign link_class = normal_link_class -%}
+              {%- endif -%}
       <li class="py-0 ml-2 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent text-left">
         <a href="{{ pagemenu_entry.link | relative_url }}" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent {{ link_class }}">
           <span class="text-sm">{{ pagemenu_entry.text }}</span>
@@ -57,8 +58,9 @@
           {%- endif -%}
         </a>
       </li>
-          {%- endfor -%}
-          {%- assign pagemenu_done = true -%}
+            {%- endfor -%}
+            {%- assign pagemenu_done = true -%}
+          {%- endif -%}
         {%- endif -%}
       {%- endfor -%}
       {%- comment -%}Page-menus{%- endcomment -%}
