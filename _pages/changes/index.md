@@ -22,7 +22,7 @@ title: GeoAPI History
 <p>The changes between different versions of GeoAPI are collected here (most recent changes are first):</p>
 
 <ul>
-  <li><a href="{{ '/snapshot/change-summary.html' | relative_url }}">Changes between GeoAPI 3.0 and 3.1-SNAPSHOT</a></li>
+  <li><a href="{{ '/changes/snapshot/change-summary.html' | relative_url }}">Changes between GeoAPI 3.0 and 3.1-SNAPSHOT</a></li>
   <li><a href="{{ '/changes/2.3/index.html' | relative_url }}">Changes between GeoAPI 2.2 and 3.0</a> (GeoAPI 2.3 series of milestones)</li>
   <li><a href="{{ '/changes/2.0/index.html' | relative_url }}">Changes between GeoAPI 1.0 and 2.0</a></li>
 </ul>
