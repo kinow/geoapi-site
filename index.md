@@ -31,6 +31,6 @@ Clients can use the API without concern for the particular implementation which 
 </div>
 
 <p>In order to use GeoAPI, developers must select a third-party implementation. Examples about how to use
-GeoAPI with some third-party libraries are available in <a href="{{ /java/examples/usage.html | relative_url }}">Java</a> and
-<a href="{{ /python/examples/index.html | relative_url }}">Python</a>. There is also some more examples about how to
-<a href="{{ /java/examples/index.html | relative_url }}">implement and test</a> a new GeoAPI implementation.</p>
+GeoAPI with some third-party libraries are available in <a href="{{ '/java/examples/usage.html' | relative_url }}">Java</a> and
+<a href="{{ '/python/examples/index.html' | relative_url }}">Python</a>. There is also some more examples about how to
+<a href="{{ '/java/examples/index.html' | relative_url }}">implement and test</a> a new GeoAPI implementation.</p>
