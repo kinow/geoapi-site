@@ -30,8 +30,14 @@
         {%- else -%}
           {%- assign link_class = normal_link_class -%}
         {%- endif -%}
+      {%- assign link = nil -%}
+      {%- if entry.is_external -%}
+        {%- assign link = entry.link -%}
+      {%- else -%}
+        {%- assign link = entry.link | relative_url -%}
+      {%- endif -%}
       <li class="py-0 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent text-left">
-        <a href="{{ entry.link | relative_url }}" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent {{ link_class }}">
+        <a href="{{ link }}" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent {{ link_class }}">
           <span class="text-sm">{{ entry.text }}</span>
           {%- if entry.is_external -%}
           <svg class="ml-1 w-4 h-4 fill-current text-gray-600 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -48,8 +54,14 @@
               {%- else -%}
               {%- assign link_class = normal_link_class -%}
               {%- endif -%}
+              {%- assign link = nil -%}
+              {%- if pagemenu_entry.is_external -%}
+                {%- assign link = pagemenu_entry.link -%}
+              {%- else -%}
+                {%- assign link = pagemenu_entry.link | relative_url -%}
+              {%- endif -%}
       <li class="py-0 ml-2 md:my-0 hover:bg-blue-200 lg:hover:bg-transparent text-left">
-        <a href="{{ pagemenu_entry.link | relative_url }}" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent {{ link_class }}">
+        <a href="{{ link }}" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent {{ link_class }}">
           <span class="text-sm">{{ pagemenu_entry.text }}</span>
           {%- if pagemenu_entry.is_external -%}
           <svg class="ml-1 w-4 h-4 fill-current text-gray-600 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -66,18 +78,24 @@
       {%- comment -%}Page-menus{%- endcomment -%}
       {%- if pagemenu_done == false && page.pagemenu -%}
         {%- for entry in page.pagemenu -%}
-        {%- comment -%}This is for the style of the active link (we decide which item is active here too){%- endcomment -%}
-        {%- if page.url == entry.link -%}
-          {%- assign link_class = active_link_class -%}
-        {%- else -%}
-          {%- assign link_class = normal_link_class -%}
-        {%- endif -%}
-        {%- assign margin_class = "my-0" -%}
-        {%- if forloop.first -%}
-          {%- assign margin_class = "mb-0 mt-4 border-t-2" -%}
-        {%- endif -%}
+          {%- comment -%}This is for the style of the active link (we decide which item is active here too){%- endcomment -%}
+          {%- if page.url == entry.link -%}
+            {%- assign link_class = active_link_class -%}
+          {%- else -%}
+            {%- assign link_class = normal_link_class -%}
+          {%- endif -%}
+          {%- assign margin_class = "my-0" -%}
+          {%- if forloop.first -%}
+            {%- assign margin_class = "mb-0 mt-4 border-t-2" -%}
+          {%- endif -%}
+          {%- assign link = nil -%}
+          {%- if entry.is_external -%}
+            {%- assign link = entry.link -%}
+          {%- else -%}
+            {%- assign link = entry.link | relative_url -%}
+          {%- endif -%}
       <li class="py-0 md:{{ margin_class }} hover:bg-blue-200 lg:hover:bg-transparent text-left">
-        <a href="{{ entry.link | relative_url }}" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent {{ link_class }}">
+        <a href="{{ link }}" class="block pl-4 align-middle text-gray-700 no-underline hover:text-blue-500 border-l-4 border-transparent {{ link_class }}">
           <span class="text-sm">{{ entry.text }}</span>
           {%- if entry.is_external -%}
           <svg class="ml-1 w-4 h-4 fill-current text-gray-600 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
