@@ -12,8 +12,8 @@ layout: default
 <p>GeoAPI provides a set programming interfaces for geospatial applications. In a series of packages or modules,
 GeoAPI 3.0 defines interfaces for metadata handling and for geodetic referencing (map projections).
 The GeoAPI interfaces closely follow the abstract models published collaboratively by the
-<a href="https://www.isotc211.org/">International Organization for Standardization</a> (ISO) in its 19100
-series of documents and the <a href="https://www.opengeospatial.org/">Open Geospatial Consortium</a> (OGC) in
+<a class="externalLink" href="https://www.isotc211.org/">International Organization for Standardization</a> (ISO) in its 19100
+series of documents and the <a class="externalLink" href="https://www.opengeospatial.org/">Open Geospatial Consortium</a> (OGC) in
 its abstract and implementation specifications. GeoAPI provides an interpretation and adaptation of these
 standards to match the expectations of Java or Python programmers. These standards provide GeoAPI with
 the richness which comes from the expertise of the specification writers. Clients benefit from the potential

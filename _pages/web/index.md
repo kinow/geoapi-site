@@ -1,6 +1,7 @@
 ---
 permalink: "/web/index.html"
 layout: default
+title: "GeoAPI for the web"
 ---
 <h1>Web API</h1>
 
