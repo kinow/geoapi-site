@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: "/3.0/index.html"
+title: "GeoAPI 3.0.1"
 ---
 <h1>GeoAPI 3.0.1</h1>
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: "/java/examples/testing.html"
+title: "GeoAPI testing examples"
 ---
 <h1>Testing with GeoAPI</h1>
 

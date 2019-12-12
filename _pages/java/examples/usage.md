@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: "/java/examples/usage.html"
+title: "GeoAPI examples in Java"
 ---
 <h1>Using GeoAPI in Java</h1>
 

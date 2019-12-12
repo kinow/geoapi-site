@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: "/java/index.html"
+title: "GeoAPI for Java"
 ---
 <h1>Java API</h1>
 
