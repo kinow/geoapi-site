@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: "/conformance/index.html"
+title: "GeoAPI conformance"
 ---
 <h1>Conformance tests</h1>
 
