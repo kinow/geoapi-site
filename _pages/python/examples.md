@@ -1,6 +1,7 @@
 ---
 permalink: "/python/examples/index.html"
 layout: default
+title: "GeoAPI examples in Python"
 ---
 <h1>GeoAPI examples in Python</h1>
 
