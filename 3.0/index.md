@@ -37,5 +37,5 @@ permalink: "/3.0/index.html"
 <p>
   This release is identical to the latest GeoAPI 2.3 milestone except for the JSR-275 dependency (deprecated)
   which is replaced by JSR-363 (the Java standard API for units of measurements).
-  For a list of changes compared to previous versions, see the <a href="../2.3/index.html">changes in the 2.3 series of milestones</a>.
+  For a list of changes compared to previous versions, see the <a href="{{ '/changes/2.3/index.html' | relative_url }}">changes in the 2.3 series of milestones</a>.
 </p>
