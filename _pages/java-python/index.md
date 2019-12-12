@@ -1,6 +1,7 @@
 ---
 permalink: "/java-python/index.html"
 layout: default
+title: "GeoAPI Java-Python bridge"
 ---
 <h1>Bridge between Java and Python API</h1>
 
