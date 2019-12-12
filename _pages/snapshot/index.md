@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: "/snapshot/index.html"
+title: "GeoAPI development"
 ---
 
 <h1>GeoAPI developments</h1>

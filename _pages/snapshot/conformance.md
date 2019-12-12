@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: "/snapshot/conformance.html"
+title: "GeoAPI conformance (preview)"
 ---
 <h1>Conformance tests</h1>
 
