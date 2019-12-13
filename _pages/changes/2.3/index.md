@@ -30,39 +30,39 @@ title: GeoAPI 2.3 (archived)
 <table style="padding-left: 40px; border-spacing:6px;">
   <tr>
     <td>Changes in <b>M6</b> since:</td>
-    <td><a href="../changes/2.3-M6/since-M5.html">M5</a></td>
-    <td><a href="../changes/2.3-M6/since-M4.html">M4</a></td>
-    <td><a href="../changes/2.3-M6/since-M3.html">M3</a></td>
-    <td><a href="../changes/2.3-M6/since-M2.html">M2</a></td>
-    <td><a href="../changes/2.3-M6/since-M1.html">M1</a></td>
+    <td><a href="../2.3-M6/since-M5.html">M5</a></td>
+    <td><a href="../2.3-M6/since-M4.html">M4</a></td>
+    <td><a href="../2.3-M6/since-M3.html">M3</a></td>
+    <td><a href="../2.3-M6/since-M2.html">M2</a></td>
+    <td><a href="../2.3-M6/since-M1.html">M1</a></td>
   </tr><tr>
     <td>Changes in <b>M5</b> since:</td>
     <td></td>
-    <td><a href="../changes/2.3-M5/since-M4.html">M4</a></td>
-    <td><a href="../changes/2.3-M5/since-M3.html">M3</a></td>
-    <td><a href="../changes/2.3-M5/since-M2.html">M2</a></td>
-    <td><a href="../changes/2.3-M5/since-M1.html">M1</a></td>
+    <td><a href="../2.3-M5/since-M4.html">M4</a></td>
+    <td><a href="../2.3-M5/since-M3.html">M3</a></td>
+    <td><a href="../2.3-M5/since-M2.html">M2</a></td>
+    <td><a href="../2.3-M5/since-M1.html">M1</a></td>
   </tr><tr>
     <td>Changes in <b>M4</b> since:</td>
     <td></td>
     <td></td>
-    <td><a href="../changes/2.3-M4/since-M3.html">M3</a></td>
-    <td><a href="../changes/2.3-M4/since-M2.html">M2</a></td>
-    <td><a href="../changes/2.3-M4/since-M1.html">M1</a></td>
+    <td><a href="../2.3-M4/since-M3.html">M3</a></td>
+    <td><a href="../2.3-M4/since-M2.html">M2</a></td>
+    <td><a href="../2.3-M4/since-M1.html">M1</a></td>
   </tr><tr>
     <td>Changes in <b>M3</b> since:</td>
     <td></td>
     <td></td>
     <td></td>
-    <td><a href="../changes/2.3-M3/since-M2.html">M2</a></td>
-    <td><a href="../changes/2.3-M3/since-M1.html">M1</a></td>
+    <td><a href="../2.3-M3/since-M2.html">M2</a></td>
+    <td><a href="../2.3-M3/since-M1.html">M1</a></td>
   </tr><tr>
     <td>Changes in <b>M2</b> since:</td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
-    <td><a href="../changes/2.3-M2/since-M1.html">M1</a></td>
+    <td><a href="../2.3-M2/since-M1.html">M1</a></td>
   </tr>
 </table>
 
