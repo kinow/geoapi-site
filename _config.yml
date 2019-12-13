@@ -30,7 +30,7 @@ menu:
  - text: "Latest release"
    link: "/3.0/index.html"
  - text: "Archives"
-   link: "/changes/index.html"
+   link: "/archives/index.html"
  - text: "Conformance"
    link: "/conformance/index.html"
  - text: "Developments"
@@ -113,23 +113,23 @@ defaults:
         - text: Bridge with Python
           link: "/java-python/index.html"
   - scope:
-      path: "*/changes*"
+      path: "*/archives*"
     values:
       pagemenu:
         - text: "Archives"
-          link: "/changes/index.html"
+          link: "/archives/index.html"
         - text: "0.1"
-          link: "/changes/0.1/index.html"
+          link: "/archives/0.1/index.html"
         - text: "1.0"
-          link: "/changes/1.0/index.html"
+          link: "/archives/1.0/index.html"
         - text: "2.0"
-          link: "/changes/2.0/index.html"
+          link: "/archives/2.0/index.html"
         - text: "2.1"
-          link: "/changes/2.1/index.html"
+          link: "/archives/2.1/index.html"
         - text: "2.2"
-          link: "/changes/2.2/index.html"
+          link: "/archives/2.2/index.html"
         - text: "2.3"
-          link: "/changes/2.3/index.html"
+          link: "/archives/2.3/index.html"
 
 # Build settings
 markdown: kramdown
@@ -149,7 +149,7 @@ permalink: pretty
 
 include:
   - 3.0
-  - changes
+  - archives
   - conformance
   - java
   - snapshot

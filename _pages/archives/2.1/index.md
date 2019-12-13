@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: "/changes/2.1/index.html"
+permalink: "/archives/2.1/index.html"
 title: GeoAPI 2.1 (archived)
 ---
 

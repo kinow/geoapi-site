@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: "/changes/0.1/index.html"
+permalink: "/archives/0.1/index.html"
 title: "GeoAPI 0.1 (archived)"
 ---
 <h1>GeoAPI 0.1 (archived)</h1>

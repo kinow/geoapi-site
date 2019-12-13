@@ -51,8 +51,8 @@ title: "GeoAPI development"
   <li class="my-1 text-justify"><b>Java</b><ul>
     <li class="my-1 text-justify"><a href="javadoc/content.html">Java ↔︎ OGC/ISO mapping</a></li>
     <li class="my-1 text-justify"><a href="javadoc/index.html">Java API for GeoAPI 3.1-SNAPSHOT</a></li>
-    <li class="my-1 text-justify"><a href="../changes/snapshot/change-summary.html">Changes compared to GeoAPI 3.0.1</a></li>
-    <li class="my-1 text-justify"><a href="../changes/index.html">Changes compared to older milestones</a></li>
+    <li class="my-1 text-justify"><a href="../archives/snapshot/change-summary.html">Changes compared to GeoAPI 3.0.1</a></li>
+    <li class="my-1 text-justify"><a href="../archives/index.html">Changes compared to older milestones</a></li>
   </ul></li>
   <li class="my-1 text-justify"><b>Python</b><ul>
     <li class="my-1 text-justify"><a href="python/index.html">Python API for GeoAPI 4.0-SNAPSHOT</a></li>
